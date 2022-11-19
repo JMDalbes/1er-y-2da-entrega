@@ -18,7 +18,6 @@ h1{
     font-family:  "mi fuente";
     color: blueviolet;
     text-align: center;
-    text-decoration:underline;
 }
 
 h2{
@@ -71,7 +70,7 @@ h2{
 }
 
 #menu ul li a:hover{
-    color: rgb(7, 7, 69);
+    color: rgb(9, 9, 225);
 }
 
 #pag1{
@@ -163,7 +162,6 @@ h2{
     color: blueviolet;
     font-size: 30px;
     text-align: center;
-    text-decoration: underline;
 }
 
 #fiestas{
@@ -357,4 +355,119 @@ article p{
     font-family: 'mi fuente';
     font-size: 25px;
     color: blueviolet;
+}
+
+@media (max-width:1440px){
+    #portada{
+        display: flex;
+        justify-content:center;
+    }
+    #portada img{
+        display: inline;
+        width:1400px;
+        height: 450px;
+    }
+
+}
+
+
+@media (max-width:1200px){
+    #portada{
+        display: flex;
+        justify-content:center;
+    }
+    #portada img{
+        display: inline;
+        width:1100px;
+        height: 450px;
+    }
+
+}
+
+@media (max-width:1024px){
+    #portada{
+        display: flex;
+        justify-content: center;
+    }
+    #portada img{
+        display: inline;
+        width: 950px;
+        height: 350px;
+    }
+
+}
+
+@media (max-width:992px){
+    #portada{
+        display: flex;
+        justify-content: center;
+    }
+    #portada img{
+        width: 900px;
+        height: 300px;
+    }
+
+}
+
+@media (max-width:768px){
+    #portada{
+        display: flex;
+        justify-content: center;
+    }
+    #portada img{
+        display: inline;
+        width: 700px;
+        height: 250px;
+    }
+
+}@media (max-width:611px){
+    #portada{
+        display: flex;
+        justify-content: center;
+    }
+    #portada img{
+        display: inline;
+        width: 550px;
+        height: 200px;
+    }
+
+}
+
+@media (max-width:576px){
+    #portada{
+        display: flex;
+        justify-content: center;
+    }
+    #portada img{
+        display: inline;
+        width: 450px;
+        height: 150px;
+    }
+
+}
+
+@media (max-width:425px){
+    #portada{
+        display: flex;
+        justify-content: center;
+    }
+    #portada img{
+        display: inline;
+        width: 350px;
+        height: 130px;
+    }
+
+}
+
+@media (max-width:374px){
+    #portada{
+        display: flex;
+        justify-content: center;
+    }
+    #portada img{
+        display: inline;
+        width: 330px;
+        height: 100px;
+    }
+
 }
