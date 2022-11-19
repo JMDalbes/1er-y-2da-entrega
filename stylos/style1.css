@@ -420,7 +420,7 @@ article p{
         height: 250px;
     }
 
-}@media (max-width:611px){
+}@media (max-width:620px){
     #portada{
         display: flex;
         justify-content: center;
