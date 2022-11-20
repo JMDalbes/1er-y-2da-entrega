@@ -1,5 +1,4 @@
 
-
 @font-face {
     font-family: mi fuente;
     src: url(fontos/GlacialIndifference-Regular.otf);
@@ -20,13 +19,14 @@ h1{
     text-align: center;
 }
 
+
+
 h2{
     font-family: "mi fuente";
     color: blueviolet;
     text-align: center;
-
-
 }
+
 
 #logo{
     display: block;
@@ -36,6 +36,27 @@ h2{
     height: 94px;
 
 }
+.navbar-toggler-icon {
+    color: #1f53c5;
+}
+
+
+.container-fluid a{
+    font-family: "mi fuente";
+    color: blueviolet;
+}
+.container-fluid a:hover{
+    color: blue;
+}
+
+#navbarSupportedContent ul li a{
+    font-family: "mi fuente";
+    color: blueviolet;
+}
+#navbarSupportedContent ul li a:hover{
+    color: blue;
+}
+
 
 #portada{
     display: flex;
@@ -116,7 +137,6 @@ h2{
 }
 
 #babyShower img{
-    display: inline;
     width: 250px;
     height: 200px;
 }
@@ -162,6 +182,7 @@ h2{
     color: blueviolet;
     font-size: 30px;
     text-align: center;
+    
 }
 
 #fiestas{
